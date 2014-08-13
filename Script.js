@@ -4,9 +4,9 @@
 
 var SCREEN_WIDTH = 600;        // Width of game screen
 var SCREEN_HEIGHT = 500;       // Height of game screen
-var MAX_SHIP_SPEED = 30;       // Maximum speed of ship
-var NUM_BULLETS = 10;          // Maximum simultaneous bullets that can fly
-var DELAY_BULLET = 5;          // Number of update frames between bullet firing  
+var MAX_SHIP_SPEED = 35;       // Maximum speed of ship
+var NUM_BULLETS = 20;          // Maximum simultaneous bullets that can fly
+var DELAY_BULLET = 3;          // Number of update frames between bullet firing  
 var BULLET_LIFE = 20;          // Number of frames bullet flies
 var SPREAD = 1;                // Degrees of spread of bullet tragectory 
 var LIVES = 3;                 // Number of lives player starts game with
