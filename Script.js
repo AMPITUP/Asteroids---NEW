@@ -90,6 +90,7 @@ function die() {
         console.log("Game Over! Score = " + points);
         alert("Game Over! Your score was: " + points);
         scene.stop();
+        location.reload();
         return;
     } //endif
 } //end die()
