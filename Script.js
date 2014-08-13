@@ -455,6 +455,19 @@ function checkCollisions() {
         } //endif
 } //end checkCollisions()
 
+if (points > 100) {
+    NUM_ASTEROIDS = NUM_ASTEROIDS + 1;
+}
+
+if (points > 500) {
+    NUM_ASTEROIDS = NUM_ASTEROIDS + 2;
+}
+
+if (points > 1000) {
+    NUM_ASTEROIDS = NUM_ASTEROIDS + 2;
+    NUM_TINY_ASTEROIDS = NUM_TINY_ASTEROIDS + 2;
+}
+
 
 ///////////////////////////////
 ////////Initialization 
