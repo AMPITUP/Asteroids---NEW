@@ -369,8 +369,6 @@ function Alien(i) {
 
 function makeAliens() {
     aliens = [];
-    if (randNum >= 400)
-       aliens.push(Alien(i));
     for (i = 0; i < NUM_ALIENS; i++)
         aliens.push(Alien());
 } //end makeAliens()
