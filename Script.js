@@ -19,7 +19,7 @@ var NUM_ASTEROIDS = 2;         // Number of large asteroids in game
 var NUM_SMALL_ASTEROIDS = 1;   // " small asteroids
 var NUM_TINY_ASTEROIDS = 1;    // " tiny asteroids
 
-var NUM_ALIENS = 3;            // Number of alien ships flying through game
+var NUM_ALIENS = randNum;            // Number of alien ships flying through game
 
 /*--------------------------------
    Image file names
